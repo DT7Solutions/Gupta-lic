@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Insure - Insurance HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <!-- <div
+      class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block"
+    >
+      <div class="row gx-0 align-items-center">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <small class="fa fa-phone-alt me-2"></small>
+            <small>+012 345 6789</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <small class="far fa-envelope-open me-2"></small>
+            <small>info@example.com</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <small class="far fa-clock me-2"></small>
+            <small>Mon - Fri : 09 AM - 09 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="text-white-50 ms-4" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="text-white-50 ms-4" href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="text-white-50 ms-4" href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="text-white-50 ms-4" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+    >
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        
+          <img
+            class="img-fluids me-3"
+            src="img/life-insurance.png"
+            alt=""
+          />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About Us</a>
+          <a href="service.html" class="nav-item nav-link active"
+            >Our Policies</a
+          >
+          <!-- <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Pages</a
+            >
+            <div class="dropdown-menu bg-light border-0 m-0">
+              <a href="feature.html" class="dropdown-item">Features</a>
+              <a href="appointment.html" class="dropdown-item">Appointment</a>
+              <a href="team.html" class="dropdown-item">Team Members</a>
+              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="404.html" class="dropdown-item">404 Page</a>
+            </div>
+          </div> -->
+          <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+        </div>
+      </div>
+      <!-- <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a> -->
+      <a type="button" class="btn btn-primary d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#modalCenter">
+        Get A Quote
+      </a>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="modalCenter" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header " >
+              <div class="col-7">
+              <h5 class="modal-title " style="text-align: right;"  id="modalCenterTitle ">GET In Touch</h5>
+            </div>
+            <div class="col-5 " style="text-align:right ;">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style="text-align: right!important;"
+               
+              ></button>
+            </div>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col mb-3">
+                  <label for="nameWithTitle" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="nameWithTitle"
+                    class="form-control"
+                    placeholder="Enter Name"
+                  />
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col mb-1">
+                  <label for="emailWithTitle" class="form-label">Ph.no</label>
+                  <input
+                    type="text"
+                    id="emailWithTitle"
+                    class="form-control"
+                    placeholder="Phone no"
+                  />
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col mt-2 mb-0">
+                  <label for="dobWithTitle" class="form-label">Message</label>
+                  <textarea
+                    type="text"
+                    id="dobWithTitle"
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-head py-5 mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <h1 class="display-4 animated slideInDown mb-4">Policies</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Services</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5 text-primary">
+            What we Do
+          </h1>
+        </div>
+        <div class="row  g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/trail.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">Cancer Care Insurance</h4>
+              </div>
+              <p class="mb-4">
+                LIC's Cancer Cover is a non-linked, regular premium payment health insurance plan which provides fixed benefit in case the Life Assured is diagnosed
+              </p>
+              <a class="btn btn-light px-3" href="cancercare.html">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6   wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0   rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/Siip policy2.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">LIC's Jeevan Umang</h4>
+              </div>
+              <p class="mb-4">
+                LIC’s Jeevan Umang plan offers a combination of income and protection to your family
+                This plan provides for annual survival benefits from the end of the premium paying term till maturity 
+              </p>
+              <a class="btn btn-light px-3" href="SIIP.html">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/lic-gupta-home-policies-110x50.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">LIC's Jeevan Labh</h4>
+              </div>
+              <p class="mb-4">
+                LIC's Jeevan Labh is a limited premium paying, non-linked, with-profits endowment plan which offers a combination of protection and savingsThis plan provides financial support for the family 
+              </p>
+              <a class="btn btn-light px-3" href="Tech-term.html">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0   rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/dhan-varsha- policy2.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">LIC's Dhan Varsha</h4>
+              </div>
+              <p class="mb-4">
+                LIC’s Dhan Varsha is a Non-Linked, Non-Participating, Individual, Savings, Single Premium Life Insurance plan which offers a combination of protection and savings.
+              </p>
+              <a class="btn btn-light px-3" href="Dhan-varsha.html">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/lic-gupta-home-services-lic-chidren'smoneybackplan-50x50.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">LIC's New Children's Money Back Plan </h4>
+              </div>
+              <p class="mb-4">
+                LIC’s New Pension Plus is a Non-Participating, Unit Linked, Individual Pension plan which helps to build corpus by systematic and disciplined savings which can be converted into regular income
+              </p>
+              <a class="btn btn-light px-3" href="Pension-plus.html">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/lic-gupta-home-services-lic-jeevan-anand-50x50.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0">LIC's New Jeevan Anand</h4>
+              </div>
+              <p class="mb-4">
+                LIC's New Jeevan Anand Plan is a participating non-linked plan which offers an attractive combination of protection and savings.This combination provides financial protection against death throughout the lifetime of the policyholder
+              </p>
+              <a class="btn btn-light px-3" href="Dhan-sanchay.html">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!--common-policies-->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5 text-primary">
+           Common Policies
+          </h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5" style="background-color:  #e6effa;">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/Untitled design (75).png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0 text-primary">Contact for group Insurance scheme</h4>
+              </div>
+              
+              <a class="btn btn-light px-3" href="https://licindia.in/">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5" style="background-color:  #e6effa;">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/Untitled design (76).png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0 text-primary">Pradhan Mathri  jeevan Jyoti Bhima Yojana</h4>
+              </div>
+              
+              <a class="btn btn-light px-3" href="https://licindia.in/">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5"  style="background-color:  #e6effa;">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0  rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/Untitled design (77).png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0 text-primary">Pradhan Mathri  jhan dhan  Yojana</h4>
+              </div>
+              
+              <a class="btn btn-light px-3 text-center" href="https://licindia.in/">Read More</a>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+      <!---common-policies--end-->
+
+      <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <!-- <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Services</p> -->
+                <h1 class="display-6 mb-5 text-primary">Benefits of Insurance</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Childs Education</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Retirement Plan</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>Financial Security</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <h5 class="m-0"><i class="fa fa-bars text-primary me-3"></i>family protections</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/child-education(485 × 350px) (350 × 450px).png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">25 Years Of Experience In Financial Support</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                        clita duo justo erat amet.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <a href="https://licindia.in/" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/retrement-plan) (485 × 350px).png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">25 Years Of Experience In Financial Support</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                        clita duo justo erat amet.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <a href="https://licindia.in/" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/finical-security) (485 × 350px).png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">25 Years Of Experience In Financial Support</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                        clita duo justo erat amet.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <a href="https://licindia.in/" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/family protection  2(485 × 350px).png"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">25 Years Of Experience In Financial Support</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+                                        diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
+                                        clita duo justo erat amet.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Secured Loans</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Credit Facilities</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Cash Advanced</p>
+                                    <a href="https://licindia.in/" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h1 class="text-white mb-4">
+              <img
+                class="img-fluids me-3"
+                src="img/life-insurance.png"
+                alt=""
+              />
+            </h1>
+            
+            <div class="d-flex pt-2">
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-square me-0" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+            <p><i class="fa fa-envelope me-3"></i>licgupta6@gmail.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Our Services</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a>
+            
+            
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+              <br />Distributed By:
+              <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
