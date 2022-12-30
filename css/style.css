@@ -604,3 +604,8 @@ html,body{
     background-blend-mode: darken;
    
 }
+/* @media (max-width: 480px) {
+    .owl-item{
+        margin-right: -10px;
+    }
+} */
