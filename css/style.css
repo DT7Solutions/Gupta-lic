@@ -609,3 +609,20 @@ html,body{
         margin-right: -10px;
     }
 } */
+.start-5{
+    left: 75% !important;
+   
+}
+.top-5{
+    top: 70% !important;
+}
+.exp-bg{
+    width:150px;
+    height:150px;
+}
+ @media  (min-width:320px) and (max-width:520px) {
+    .start-5{
+        left: 60% !important;;
+    }
+    
+ }
